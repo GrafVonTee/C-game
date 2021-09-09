@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Maksim/CLionProjects/untitled/gaym_functions.c
+gaym_functions.h
+C:/Users/Maksim/CLionProjects/untitled/gaym_functions.h
+gaym_structs.h
+C:/Users/Maksim/CLionProjects/untitled/gaym_structs.h
+string_func.h
+C:/Users/Maksim/CLionProjects/untitled/string_func.h
+string.h
+-
+stdio.h
+-
+
+C:/Users/Maksim/CLionProjects/untitled/gaym_functions.h
+gaym_structs.h
+C:/Users/Maksim/CLionProjects/untitled/gaym_structs.h
+
+C:/Users/Maksim/CLionProjects/untitled/gaym_structs.h
+
+C:/Users/Maksim/CLionProjects/untitled/main.c
+gaym_structs.h
+C:/Users/Maksim/CLionProjects/untitled/gaym_structs.h
+gaym_functions.h
+C:/Users/Maksim/CLionProjects/untitled/gaym_functions.h
+
+C:/Users/Maksim/CLionProjects/untitled/string_func.h
+
