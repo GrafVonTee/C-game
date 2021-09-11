@@ -4,6 +4,6 @@
 
 #define bitmap int
 
-void print(hero hero_character);
-void get_status_in_string(char *source,enum Status stat);
+void print(hero);
+void get_status_in_string(char *source, enum Status);
 void print_status(bitmap status);

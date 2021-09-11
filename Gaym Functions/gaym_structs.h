@@ -18,6 +18,6 @@ typedef struct {
     int health;
     int armor;
     int attack;
-    char * name;
+    char *name;
     bitmap status;
 } hero;

@@ -8,14 +8,13 @@
 #include <stdbool.h>
 
 #define bitmap int
-#define bool char
 
-void print(hero hero_character) {
-    printf("Your character %s has:\n", hero_character.name);
-    printf("Health: %d\n", hero_character.health);
-    printf("Attack: %d\n", hero_character.attack);
-    printf("Armor:  %d\n", hero_character.armor);
-    print_status(hero_character.status);
+void print(hero hero_main) {
+    printf("Your character %s has:\n", hero_main.name);
+    printf("Health: %d\n", hero_main.health);
+    printf("Attack: %d\n", hero_main.attack);
+    printf("Armor:  %d\n", hero_main.armor);
+    print_status(hero_main.status);
 }
 
 void print_status(bitmap status) {
