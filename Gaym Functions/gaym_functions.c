@@ -2,9 +2,10 @@
 
 #include "gaym_functions.h"
 #include "gaym_structs.h"
-#include "string_func.h"
+#include "../String Advanced/string_func.h"
 #include <string.h>
 #include <stdio.h>
+#include <stdbool.h>
 
 #define bitmap int
 #define bool char
@@ -19,15 +20,14 @@ void print(hero hero_character) {
 
 void print_status(bitmap status) {
     printf("Status: ");
-    bool options = 0;
-    for (enum Status stat = DEAD; stat < ALL_STATUS; stat++)
-        if ((status & (1 << stat)) != 0) {
-            if (options != 0)
-                printf(", ");
+    bool is_first = true;
+    for (enum Status i_status = DEAD; i_status < ALL_STATUS; i_status++)
+        if ((status & (1 << i_status)) != 0) {
+            if (is_first != true) printf(", ");
             char message[25];
-            get_status_in_string(message, stat);
-            print_string(message, len(message));
-            options = 1;
+            get_status_in_string(message, i_status);
+            print_string(message, strlen(message));
+            is_first = false;
         }
     printf("\n");
 }

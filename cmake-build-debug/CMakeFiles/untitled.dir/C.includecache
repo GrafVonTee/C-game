@@ -6,29 +6,31 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Maksim/CLionProjects/untitled/gaym_functions.c
+C:/Users/Maksim/CLionProjects/untitled/Gaym Functions/gaym_functions.c
 gaym_functions.h
-C:/Users/Maksim/CLionProjects/untitled/gaym_functions.h
+C:/Users/Maksim/CLionProjects/untitled/Gaym Functions/gaym_functions.h
 gaym_structs.h
-C:/Users/Maksim/CLionProjects/untitled/gaym_structs.h
-string_func.h
-C:/Users/Maksim/CLionProjects/untitled/string_func.h
+C:/Users/Maksim/CLionProjects/untitled/Gaym Functions/gaym_structs.h
+../String Advanced/string_func.h
+C:/Users/Maksim/CLionProjects/untitled/String Advanced/string_func.h
 string.h
 -
 stdio.h
 -
+stdbool.h
+-
 
-C:/Users/Maksim/CLionProjects/untitled/gaym_functions.h
+C:/Users/Maksim/CLionProjects/untitled/Gaym Functions/gaym_functions.h
 gaym_structs.h
-C:/Users/Maksim/CLionProjects/untitled/gaym_structs.h
+C:/Users/Maksim/CLionProjects/untitled/Gaym Functions/gaym_structs.h
 
-C:/Users/Maksim/CLionProjects/untitled/gaym_structs.h
+C:/Users/Maksim/CLionProjects/untitled/Gaym Functions/gaym_structs.h
+
+C:/Users/Maksim/CLionProjects/untitled/String Advanced/string_func.h
 
 C:/Users/Maksim/CLionProjects/untitled/main.c
-gaym_structs.h
-C:/Users/Maksim/CLionProjects/untitled/gaym_structs.h
-gaym_functions.h
-C:/Users/Maksim/CLionProjects/untitled/gaym_functions.h
-
-C:/Users/Maksim/CLionProjects/untitled/string_func.h
+Gaym Functions/gaym_structs.h
+C:/Users/Maksim/CLionProjects/untitled/Gaym Functions/gaym_structs.h
+Gaym Functions/gaym_functions.h
+C:/Users/Maksim/CLionProjects/untitled/Gaym Functions/gaym_functions.h
 

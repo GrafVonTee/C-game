@@ -1,8 +1,8 @@
 //#include <stdio.h>
 //#include <string.h>
 //#include "string_func.h"
-#include "gaym_structs.h"
-#include "gaym_functions.h"
+#include "Gaym Functions/gaym_structs.h"
+#include "Gaym Functions/gaym_functions.h"
 
 #define FOURS_TASK
 
@@ -34,7 +34,9 @@ int main()
     main_hero.health = 100;
     main_hero.armor = 20;
     main_hero.attack = 5;
-    main_hero.status = (1 << FOCUSED) | (1 << BLESSED);\
+    main_hero.status = (1 << FOCUSED) | (1 << BLESSED);
     print(main_hero);
     #endif
+
+    return 0;
 }

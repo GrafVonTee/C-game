@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Maksim/CLionProjects/untitled/gaym_functions.c" "C:/Users/Maksim/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/gaym_functions.c.obj"
+  "C:/Users/Maksim/CLionProjects/untitled/Gaym Functions/gaym_functions.c" "C:/Users/Maksim/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/Gaym_Functions/gaym_functions.c.obj"
+  "C:/Users/Maksim/CLionProjects/untitled/String Advanced/string_func.c" "C:/Users/Maksim/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/String_Advanced/string_func.c.obj"
   "C:/Users/Maksim/CLionProjects/untitled/main.c" "C:/Users/Maksim/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/main.c.obj"
-  "C:/Users/Maksim/CLionProjects/untitled/string_func.c" "C:/Users/Maksim/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/string_func.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")
 

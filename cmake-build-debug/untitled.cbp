@@ -84,22 +84,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Maksim/CLionProjects/untitled/gaym_functions.c">
+		<Unit filename="C:/Users/Maksim/CLionProjects/untitled/Gaym Functions/gaym_functions.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="C:/Users/Maksim/CLionProjects/untitled/gaym_functions.h">
+		<Unit filename="C:/Users/Maksim/CLionProjects/untitled/Gaym Functions/gaym_functions.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="C:/Users/Maksim/CLionProjects/untitled/gaym_structs.h">
+		<Unit filename="C:/Users/Maksim/CLionProjects/untitled/Gaym Functions/gaym_structs.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/Maksim/CLionProjects/untitled/String Advanced/string_func.c">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/Maksim/CLionProjects/untitled/String Advanced/string_func.h">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="C:/Users/Maksim/CLionProjects/untitled/main.c">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="C:/Users/Maksim/CLionProjects/untitled/string_func.c">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="C:/Users/Maksim/CLionProjects/untitled/string_func.h">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="C:/Users/Maksim/CLionProjects/untitled/CMakeLists.txt">

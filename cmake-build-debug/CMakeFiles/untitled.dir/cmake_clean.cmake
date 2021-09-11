@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/untitled.dir/gaym_functions.c.obj"
+  "CMakeFiles/untitled.dir/Gaym_Functions/gaym_functions.c.obj"
+  "CMakeFiles/untitled.dir/String_Advanced/string_func.c.obj"
   "CMakeFiles/untitled.dir/main.c.obj"
-  "CMakeFiles/untitled.dir/string_func.c.obj"
   "untitled.exe"
   "untitled.exe.manifest"
   "untitled.lib"

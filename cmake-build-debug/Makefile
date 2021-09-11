@@ -118,29 +118,53 @@ untitled\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\build
 .PHONY : untitled\fast
 
-gaym_functions.obj: gaym_functions.c.obj
-.PHONY : gaym_functions.obj
+Gaym_Functions\gaym_functions.obj: Gaym_Functions\gaym_functions.c.obj
+.PHONY : Gaym_Functions\gaym_functions.obj
 
 # target to build an object file
-gaym_functions.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\gaym_functions.c.obj
-.PHONY : gaym_functions.c.obj
+Gaym_Functions\gaym_functions.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\Gaym_Functions\gaym_functions.c.obj
+.PHONY : Gaym_Functions\gaym_functions.c.obj
 
-gaym_functions.i: gaym_functions.c.i
-.PHONY : gaym_functions.i
+Gaym_Functions\gaym_functions.i: Gaym_Functions\gaym_functions.c.i
+.PHONY : Gaym_Functions\gaym_functions.i
 
 # target to preprocess a source file
-gaym_functions.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\gaym_functions.c.i
-.PHONY : gaym_functions.c.i
+Gaym_Functions\gaym_functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\Gaym_Functions\gaym_functions.c.i
+.PHONY : Gaym_Functions\gaym_functions.c.i
 
-gaym_functions.s: gaym_functions.c.s
-.PHONY : gaym_functions.s
+Gaym_Functions\gaym_functions.s: Gaym_Functions\gaym_functions.c.s
+.PHONY : Gaym_Functions\gaym_functions.s
 
 # target to generate assembly for a file
-gaym_functions.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\gaym_functions.c.s
-.PHONY : gaym_functions.c.s
+Gaym_Functions\gaym_functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\Gaym_Functions\gaym_functions.c.s
+.PHONY : Gaym_Functions\gaym_functions.c.s
+
+String_Advanced\string_func.obj: String_Advanced\string_func.c.obj
+.PHONY : String_Advanced\string_func.obj
+
+# target to build an object file
+String_Advanced\string_func.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\String_Advanced\string_func.c.obj
+.PHONY : String_Advanced\string_func.c.obj
+
+String_Advanced\string_func.i: String_Advanced\string_func.c.i
+.PHONY : String_Advanced\string_func.i
+
+# target to preprocess a source file
+String_Advanced\string_func.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\String_Advanced\string_func.c.i
+.PHONY : String_Advanced\string_func.c.i
+
+String_Advanced\string_func.s: String_Advanced\string_func.c.s
+.PHONY : String_Advanced\string_func.s
+
+# target to generate assembly for a file
+String_Advanced\string_func.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\String_Advanced\string_func.c.s
+.PHONY : String_Advanced\string_func.c.s
 
 main.obj: main.c.obj
 .PHONY : main.obj
@@ -166,30 +190,6 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\main.c.s
 .PHONY : main.c.s
 
-string_func.obj: string_func.c.obj
-.PHONY : string_func.obj
-
-# target to build an object file
-string_func.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\string_func.c.obj
-.PHONY : string_func.c.obj
-
-string_func.i: string_func.c.i
-.PHONY : string_func.i
-
-# target to preprocess a source file
-string_func.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\string_func.c.i
-.PHONY : string_func.c.i
-
-string_func.s: string_func.c.s
-.PHONY : string_func.s
-
-# target to generate assembly for a file
-string_func.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\string_func.c.s
-.PHONY : string_func.c.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -199,15 +199,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... untitled
-	@echo ... gaym_functions.obj
-	@echo ... gaym_functions.i
-	@echo ... gaym_functions.s
+	@echo ... Gaym_Functions/gaym_functions.obj
+	@echo ... Gaym_Functions/gaym_functions.i
+	@echo ... Gaym_Functions/gaym_functions.s
+	@echo ... String_Advanced/string_func.obj
+	@echo ... String_Advanced/string_func.i
+	@echo ... String_Advanced/string_func.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... string_func.obj
-	@echo ... string_func.i
-	@echo ... string_func.s
 .PHONY : help
 
 

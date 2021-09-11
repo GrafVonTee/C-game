@@ -1,7 +1,3 @@
-//
-// Created by Maksim on 08.09.2021.
-//
-
 #include <stdio.h>
 
 void print_string(char* str, int length)
@@ -10,7 +6,7 @@ void print_string(char* str, int length)
         printf("%c", str[i]);
 }
 
-int len(char* str)
+int len(const char* str)
 {
     int i = 0;
     int length = 0;
