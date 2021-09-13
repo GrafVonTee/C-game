@@ -112,11 +112,51 @@ CMakeFiles\untitled.dir\Gaym_Functions\gaym_functions.c.s: cmake_force
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\untitled.dir\Gaym_Functions\gaym_functions.c.s /c "C:\Users\Maksim\CLionProjects\untitled\Gaym Functions\gaym_functions.c"
 <<
 
+CMakeFiles\untitled.dir\Gaym_Functions\tasks.c.obj: CMakeFiles\untitled.dir\flags.make
+CMakeFiles\untitled.dir\Gaym_Functions\tasks.c.obj: "..\Gaym Functions\tasks.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Maksim\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/untitled.dir/Gaym_Functions/tasks.c.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\14.29.30037\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\untitled.dir\Gaym_Functions\tasks.c.obj /FdCMakeFiles\untitled.dir\ /FS -c "C:\Users\Maksim\CLionProjects\untitled\Gaym Functions\tasks.c"
+<<
+
+CMakeFiles\untitled.dir\Gaym_Functions\tasks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/Gaym_Functions/tasks.c.i"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\14.29.30037\bin\Hostx86\x86\cl.exe > CMakeFiles\untitled.dir\Gaym_Functions\tasks.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Maksim\CLionProjects\untitled\Gaym Functions\tasks.c"
+<<
+
+CMakeFiles\untitled.dir\Gaym_Functions\tasks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/Gaym_Functions/tasks.c.s"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\14.29.30037\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\untitled.dir\Gaym_Functions\tasks.c.s /c "C:\Users\Maksim\CLionProjects\untitled\Gaym Functions\tasks.c"
+<<
+
+CMakeFiles\untitled.dir\Labirint\labirint.c.obj: CMakeFiles\untitled.dir\flags.make
+CMakeFiles\untitled.dir\Labirint\labirint.c.obj: ..\Labirint\labirint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Maksim\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/untitled.dir/Labirint/labirint.c.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\14.29.30037\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\untitled.dir\Labirint\labirint.c.obj /FdCMakeFiles\untitled.dir\ /FS -c C:\Users\Maksim\CLionProjects\untitled\Labirint\labirint.c
+<<
+
+CMakeFiles\untitled.dir\Labirint\labirint.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/Labirint/labirint.c.i"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\14.29.30037\bin\Hostx86\x86\cl.exe > CMakeFiles\untitled.dir\Labirint\labirint.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Maksim\CLionProjects\untitled\Labirint\labirint.c
+<<
+
+CMakeFiles\untitled.dir\Labirint\labirint.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/Labirint/labirint.c.s"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\14.29.30037\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\untitled.dir\Labirint\labirint.c.s /c C:\Users\Maksim\CLionProjects\untitled\Labirint\labirint.c
+<<
+
 # Object files for target untitled
 untitled_OBJECTS = \
 "CMakeFiles\untitled.dir\main.c.obj" \
 "CMakeFiles\untitled.dir\String_Advanced\string_func.c.obj" \
-"CMakeFiles\untitled.dir\Gaym_Functions\gaym_functions.c.obj"
+"CMakeFiles\untitled.dir\Gaym_Functions\gaym_functions.c.obj" \
+"CMakeFiles\untitled.dir\Gaym_Functions\tasks.c.obj" \
+"CMakeFiles\untitled.dir\Labirint\labirint.c.obj"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
@@ -124,9 +164,11 @@ untitled_EXTERNAL_OBJECTS =
 untitled.exe: CMakeFiles\untitled.dir\main.c.obj
 untitled.exe: CMakeFiles\untitled.dir\String_Advanced\string_func.c.obj
 untitled.exe: CMakeFiles\untitled.dir\Gaym_Functions\gaym_functions.c.obj
+untitled.exe: CMakeFiles\untitled.dir\Gaym_Functions\tasks.c.obj
+untitled.exe: CMakeFiles\untitled.dir\Labirint\labirint.c.obj
 untitled.exe: CMakeFiles\untitled.dir\build.make
 untitled.exe: CMakeFiles\untitled.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Maksim\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable untitled.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Maksim\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable untitled.exe"
 	"E:\Apps\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\untitled.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\10.0.19041.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\10.0.19041.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\14.29.30037\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\untitled.dir\objects1.rsp @<<
  /out:untitled.exe /implib:untitled.lib /pdb:C:\Users\Maksim\CLionProjects\untitled\cmake-build-debug\untitled.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

@@ -142,6 +142,54 @@ Gaym_Functions\gaym_functions.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\Gaym_Functions\gaym_functions.c.s
 .PHONY : Gaym_Functions\gaym_functions.c.s
 
+Gaym_Functions\tasks.obj: Gaym_Functions\tasks.c.obj
+.PHONY : Gaym_Functions\tasks.obj
+
+# target to build an object file
+Gaym_Functions\tasks.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\Gaym_Functions\tasks.c.obj
+.PHONY : Gaym_Functions\tasks.c.obj
+
+Gaym_Functions\tasks.i: Gaym_Functions\tasks.c.i
+.PHONY : Gaym_Functions\tasks.i
+
+# target to preprocess a source file
+Gaym_Functions\tasks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\Gaym_Functions\tasks.c.i
+.PHONY : Gaym_Functions\tasks.c.i
+
+Gaym_Functions\tasks.s: Gaym_Functions\tasks.c.s
+.PHONY : Gaym_Functions\tasks.s
+
+# target to generate assembly for a file
+Gaym_Functions\tasks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\Gaym_Functions\tasks.c.s
+.PHONY : Gaym_Functions\tasks.c.s
+
+Labirint\labirint.obj: Labirint\labirint.c.obj
+.PHONY : Labirint\labirint.obj
+
+# target to build an object file
+Labirint\labirint.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\Labirint\labirint.c.obj
+.PHONY : Labirint\labirint.c.obj
+
+Labirint\labirint.i: Labirint\labirint.c.i
+.PHONY : Labirint\labirint.i
+
+# target to preprocess a source file
+Labirint\labirint.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\Labirint\labirint.c.i
+.PHONY : Labirint\labirint.c.i
+
+Labirint\labirint.s: Labirint\labirint.c.s
+.PHONY : Labirint\labirint.s
+
+# target to generate assembly for a file
+Labirint\labirint.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\Labirint\labirint.c.s
+.PHONY : Labirint\labirint.c.s
+
 String_Advanced\string_func.obj: String_Advanced\string_func.c.obj
 .PHONY : String_Advanced\string_func.obj
 
@@ -202,6 +250,12 @@ help:
 	@echo ... Gaym_Functions/gaym_functions.obj
 	@echo ... Gaym_Functions/gaym_functions.i
 	@echo ... Gaym_Functions/gaym_functions.s
+	@echo ... Gaym_Functions/tasks.obj
+	@echo ... Gaym_Functions/tasks.i
+	@echo ... Gaym_Functions/tasks.s
+	@echo ... Labirint/labirint.obj
+	@echo ... Labirint/labirint.i
+	@echo ... Labirint/labirint.s
 	@echo ... String_Advanced/string_func.obj
 	@echo ... String_Advanced/string_func.i
 	@echo ... String_Advanced/string_func.s
