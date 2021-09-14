@@ -6,31 +6,19 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Maksim/CLionProjects/untitled/Gaym Functions/gaym_functions.c
-gaym_functions.h
-C:/Users/Maksim/CLionProjects/untitled/Gaym Functions/gaym_functions.h
-gaym_structs.h
-C:/Users/Maksim/CLionProjects/untitled/Gaym Functions/gaym_structs.h
-../String Advanced/string_func.h
-C:/Users/Maksim/CLionProjects/untitled/String Advanced/string_func.h
-string.h
+C:/Users/Maksim/CLionProjects/untitled/Labirint/labirint.c
+labirint.h
+C:/Users/Maksim/CLionProjects/untitled/Labirint/labirint.h
+time.h
+-
+stdlib.h
 -
 stdio.h
 -
-stdbool.h
--
 
-C:/Users/Maksim/CLionProjects/untitled/Gaym Functions/gaym_functions.h
-gaym_structs.h
-C:/Users/Maksim/CLionProjects/untitled/Gaym Functions/gaym_structs.h
-
-C:/Users/Maksim/CLionProjects/untitled/Gaym Functions/gaym_structs.h
-
-C:/Users/Maksim/CLionProjects/untitled/String Advanced/string_func.h
+C:/Users/Maksim/CLionProjects/untitled/Labirint/labirint.h
 
 C:/Users/Maksim/CLionProjects/untitled/main.c
-Gaym Functions/gaym_structs.h
-C:/Users/Maksim/CLionProjects/untitled/Gaym Functions/gaym_structs.h
-Gaym Functions/gaym_functions.h
-C:/Users/Maksim/CLionProjects/untitled/Gaym Functions/gaym_functions.h
+Labirint/labirint.h
+C:/Users/Maksim/CLionProjects/untitled/Labirint/labirint.h
 

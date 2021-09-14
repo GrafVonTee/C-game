@@ -6,9 +6,13 @@ CMakeFiles\untitled.dir\Gaym_Functions\gaym_functions.c.obj: "..\Gaym Functions\
 CMakeFiles\untitled.dir\Gaym_Functions\gaym_functions.c.obj: "..\Gaym Functions\gaym_structs.h"
 CMakeFiles\untitled.dir\Gaym_Functions\gaym_functions.c.obj: "..\String Advanced\string_func.h"
 
+CMakeFiles\untitled.dir\Gaym_Functions\tasks.c.obj: "..\Gaym Functions\tasks.c"
+
+CMakeFiles\untitled.dir\Labirint\labirint.c.obj: ..\Labirint\labirint.c
+CMakeFiles\untitled.dir\Labirint\labirint.c.obj: ..\Labirint\labirint.h
+
 CMakeFiles\untitled.dir\String_Advanced\string_func.c.obj: "..\String Advanced\string_func.c"
 
-CMakeFiles\untitled.dir\main.c.obj: "..\Gaym Functions\gaym_functions.h"
-CMakeFiles\untitled.dir\main.c.obj: "..\Gaym Functions\gaym_structs.h"
+CMakeFiles\untitled.dir\main.c.obj: ..\Labirint\labirint.h
 CMakeFiles\untitled.dir\main.c.obj: ..\main.c
 
