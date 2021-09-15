@@ -1,4 +1,13 @@
 "E:\Apps\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - NMake Makefiles" C:\Users\Maksim\CLionProjects\untitled
 -- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/Maksim/CLionProjects/untitled/cmake-build-debug
+CMake Error at CMakeLists.txt:6 (add_executable):
+  Cannot find source file:
+
+    Bitmap/bitmap.c
+
+
+CMake Error at CMakeLists.txt:6 (add_executable):
+  No SOURCES given to target: untitled
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

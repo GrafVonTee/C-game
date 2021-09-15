@@ -6,19 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Maksim/CLionProjects/untitled/Labirint/labirint.c
-labirint.h
-C:/Users/Maksim/CLionProjects/untitled/Labirint/labirint.h
-time.h
--
-stdlib.h
--
-stdio.h
+C:/Users/Maksim/CLionProjects/untitled/bitmap.c
+bitmap.h
+C:/Users/Maksim/CLionProjects/untitled/bitmap.h
+stdarg.h
 -
 
-C:/Users/Maksim/CLionProjects/untitled/Labirint/labirint.h
-
-C:/Users/Maksim/CLionProjects/untitled/main.c
-Labirint/labirint.h
-C:/Users/Maksim/CLionProjects/untitled/Labirint/labirint.h
+C:/Users/Maksim/CLionProjects/untitled/bitmap.h
 

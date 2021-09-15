@@ -166,6 +166,30 @@ Gaym_Functions\tasks.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\Gaym_Functions\tasks.c.s
 .PHONY : Gaym_Functions\tasks.c.s
 
+Hero\hero.obj: Hero\hero.c.obj
+.PHONY : Hero\hero.obj
+
+# target to build an object file
+Hero\hero.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\Hero\hero.c.obj
+.PHONY : Hero\hero.c.obj
+
+Hero\hero.i: Hero\hero.c.i
+.PHONY : Hero\hero.i
+
+# target to preprocess a source file
+Hero\hero.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\Hero\hero.c.i
+.PHONY : Hero\hero.c.i
+
+Hero\hero.s: Hero\hero.c.s
+.PHONY : Hero\hero.s
+
+# target to generate assembly for a file
+Hero\hero.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\Hero\hero.c.s
+.PHONY : Hero\hero.c.s
+
 Labirint\labirint.obj: Labirint\labirint.c.obj
 .PHONY : Labirint\labirint.obj
 
@@ -214,6 +238,30 @@ String_Advanced\string_func.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\String_Advanced\string_func.c.s
 .PHONY : String_Advanced\string_func.c.s
 
+bitmap.obj: bitmap.c.obj
+.PHONY : bitmap.obj
+
+# target to build an object file
+bitmap.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\bitmap.c.obj
+.PHONY : bitmap.c.obj
+
+bitmap.i: bitmap.c.i
+.PHONY : bitmap.i
+
+# target to preprocess a source file
+bitmap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\bitmap.c.i
+.PHONY : bitmap.c.i
+
+bitmap.s: bitmap.c.s
+.PHONY : bitmap.s
+
+# target to generate assembly for a file
+bitmap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\bitmap.c.s
+.PHONY : bitmap.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -253,12 +301,18 @@ help:
 	@echo ... Gaym_Functions/tasks.obj
 	@echo ... Gaym_Functions/tasks.i
 	@echo ... Gaym_Functions/tasks.s
+	@echo ... Hero/hero.obj
+	@echo ... Hero/hero.i
+	@echo ... Hero/hero.s
 	@echo ... Labirint/labirint.obj
 	@echo ... Labirint/labirint.i
 	@echo ... Labirint/labirint.s
 	@echo ... String_Advanced/string_func.obj
 	@echo ... String_Advanced/string_func.i
 	@echo ... String_Advanced/string_func.s
+	@echo ... bitmap.obj
+	@echo ... bitmap.i
+	@echo ... bitmap.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

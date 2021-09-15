@@ -1,21 +1,12 @@
 #define _CRT_SECURE_NO_WARNINGS
 
 #include "gaym_functions.h"
-#include "gaym_structs.h"
+//#include "gaym_structs.h"
 #include "../String Advanced/string_func.h"
 #include <string.h>
 #include <stdio.h>
 #include <stdbool.h>
-
-#define bitmap int
-
-void print(hero hero_main) {
-    printf("Your character %s has:\n", hero_main.name);
-    printf("Health: %d\n", hero_main.health);
-    printf("Attack: %d\n", hero_main.attack);
-    printf("Armor:  %d\n", hero_main.armor);
-    print_status(hero_main.status);
-}
+#include "../bitmap.h"
 
 void print_status(bitmap status) {
     printf("Status: ");

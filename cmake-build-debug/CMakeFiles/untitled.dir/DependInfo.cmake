@@ -10,8 +10,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/Maksim/CLionProjects/untitled/Gaym Functions/gaym_functions.c" "C:/Users/Maksim/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/Gaym_Functions/gaym_functions.c.obj"
   "C:/Users/Maksim/CLionProjects/untitled/Gaym Functions/tasks.c" "C:/Users/Maksim/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/Gaym_Functions/tasks.c.obj"
+  "C:/Users/Maksim/CLionProjects/untitled/Hero/hero.c" "C:/Users/Maksim/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/Hero/hero.c.obj"
   "C:/Users/Maksim/CLionProjects/untitled/Labirint/labirint.c" "C:/Users/Maksim/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/Labirint/labirint.c.obj"
   "C:/Users/Maksim/CLionProjects/untitled/String Advanced/string_func.c" "C:/Users/Maksim/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/String_Advanced/string_func.c.obj"
+  "C:/Users/Maksim/CLionProjects/untitled/bitmap.c" "C:/Users/Maksim/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/bitmap.c.obj"
   "C:/Users/Maksim/CLionProjects/untitled/main.c" "C:/Users/Maksim/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")
